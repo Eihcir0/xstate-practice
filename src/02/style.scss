@@ -1,0 +1,16 @@
+@import '../../styles/index.scss';
+
+
+#box {
+  opacity: 0.5;
+
+  &[data-state='green'] {
+    background-color: green;
+  }
+  &[data-state='yellow'] {
+    background-color: yellow;
+  }
+  &[data-state='red'] {
+    background-color: red;
+  }
+}
